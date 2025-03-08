@@ -11,16 +11,16 @@ const ProductCard = ({id}) => {
     }, [id])
 
     return (
-        <div>
-            {product && (
-                <div>
+        <>
+            
+
                     <h2>{product.title}</h2>
                     <img src={product.image} alt={product.title} />
                     <p>{product.description}</p>
                     <p>{product.price}</p>
-                </div>
-            )}
-        </div>
+
+            
+        </>
     )
 }
 
